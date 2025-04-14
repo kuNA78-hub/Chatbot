@@ -11,7 +11,7 @@ const Mypage = () => {
   const [loading, setLoading] = useState(false);
 
   // Initialize Google Gemini API (replace with your API key)
-  const genAI = new GoogleGenerativeAI("AIzaSyCaU5J35rORiMgLxjlit5Cy5pYP19w9zVg"); // Secure this in production
+  const genAI = new GoogleGenerativeAI("your gemni Api key"); // Secure this in production
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   // Handle text-based search with Gemini API
